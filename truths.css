@@ -1,7 +1,37 @@
 body{
     background-color: darkmagenta;
+   
 }
 
+.b3{
+    position: fixed;
+    border: 200px  blue;
+    border-style: inset;
+    background-color: blue;
+    width: 1350px;
+    height: 750px;
+    left: 300px;
+    top: 6px;
+    border-radius: 25%;
+    animation-name: b3;
+    animation-timing-function: ease-in-out;
+    animation-duration: 200s;
+    animation-iteration-count: infinite;
+}
+.b4{
+    position: fixed;
+    border: 200px  blue;
+    border-style: inset;
+    width: 1050px;
+    height: 550px;
+    left: 480px;
+    top: 125px;
+    border-radius: 25%;
+    animation-name: b4;
+    animation-timing-function: ease-in-out;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+}
 .wrapper{
     position: absolute;
     margin: 5px;
@@ -60,4 +90,32 @@ p
 {
     color: red;
     text-align: center;
+}
+@keyframes b3{
+    0%{transform: rotate(0deg);background-color: green;border-color: blue;}
+    10%{transform: rotate(360deg);background-color: blue; border-color: yellow;}
+    20%{transform: rotate(0deg); background-color: yellow; border-color: teal;}
+    30%{transform: rotate(360deg); background-color: teal; border-color: crimson;}
+    40%{transform: rotate(0deg);border-color: green; background-color: royalblue;}
+    50%{transform: rotate(360deg); transform: scale(225%);}
+    60%{transform: rotate(0deg);}
+    70%{transform: rotate(360deg);}
+    80%{transform: rotate(0deg);}
+    90%{transform: rotate(360deg);}
+    1000%{transform: rotate(0deg);}    
+}
+@keyframes b4 {
+    10%{border-top-color: blue; border-bottom-color: green; border-left-color: yellow; border-right-color: blueviolet;}
+    20%{border-top-color: plum; border-bottom-color: rgb(253, 26, 121); border-left-color: rgb(49, 100, 51); border-right-color: rgb(228, 115, 39);}
+    30%{border-top-color: green; border-bottom-color: blue ; border-left-color: plum; border-right-color: white;}
+    40%{border-top-color: purple; border-bottom-color: blue; border-left-color: green; border-right-color: yellow;}
+    50%{border-top-color: orange; border-bottom-color: purple; border-left-color: green; border-right-color: blue;}
+    60%{border-top-color: green; border-bottom-color: yellow; border-left-color: purple; border-right-color: red;}
+    70%{border-top-color: blue; border-bottom-color: green; border-left-color: yellow; border-right-color: blueviolet;}
+    80%{border-top-color: blue; border-bottom-color: green; border-left-color: yellow; border-right-color: blueviolet;}
+    90%{border-top-color: blue; border-bottom-color: green; border-left-color: yellow; border-right-color: blueviolet;}
+    100%{border-top-color: blue; border-bottom-color: green; border-left-color: yellow; border-right-color: blueviolet;}
+    
+
+    
 }
