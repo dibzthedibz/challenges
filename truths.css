@@ -1,6 +1,9 @@
 body{
-    background-color: darkmagenta;
-   
+    position: static;
+    animation-name: body;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 .b3{
@@ -33,14 +36,14 @@ body{
     animation-iteration-count: infinite;
 }
 .wrapper{
-    position: absolute;
+    position: relative;
     margin: 5px;
     border: 12px solid black;
     border-radius: 24px;
     background-color: darkgray;
-    left: 26%;
-    top: 25%;
-    width: 500 px;
+    left: 655px;
+    top: 270px;
+    width: 1050px;
     height: ;
 }
 .title{
@@ -115,7 +118,17 @@ p
     80%{border-top-color: blue; border-bottom-color: green; border-left-color: yellow; border-right-color: blueviolet;}
     90%{border-top-color: blue; border-bottom-color: green; border-left-color: yellow; border-right-color: blueviolet;}
     100%{border-top-color: blue; border-bottom-color: green; border-left-color: yellow; border-right-color: blueviolet;}
-    
-
-    
+}
+@keyframes body{
+    0%{background-color:purple ;}
+    10%{background-color:plum;}
+    20%{background-color:pink;}
+    30%{background-color:lightcoral ;}
+    40%{background-color: red;}
+    50%{background-color: orange;}
+    60%{background-color: yellow;}
+    70%{background-color: yellowgreen;}
+    80%{background-color: green;}
+    90%{background-color: blue;}
+    100%{background-color: purple;}
 }
