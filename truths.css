@@ -6,7 +6,7 @@ body{
     animation-iteration-count: infinite;
 }
 
-.b3{
+#b3{
     position: fixed;
     border: 200px  blue;
     border-style: inset;
@@ -21,7 +21,7 @@ body{
     animation-duration: 200s;
     animation-iteration-count: infinite;
 }
-.b4{
+#b4{
     position: fixed;
     border: 200px  blue;
     border-style: inset;
@@ -35,7 +35,7 @@ body{
     animation-duration: 18s;
     animation-iteration-count: infinite;
 }
-.wrapper{
+#wrapper{
     position: relative;
     margin: 5px;
     border: 12px solid black;
