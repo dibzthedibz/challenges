@@ -1,0 +1,63 @@
+body{
+    background-color: darkmagenta;
+}
+
+.wrapper{
+    position: absolute;
+    margin: 5px;
+    border: 12px solid black;
+    border-radius: 24px;
+    background-color: darkgray;
+    left: 26%;
+    top: 25%;
+    width: 500 px;
+    height: ;
+}
+.title{
+    text-align: center;
+    color: lightgreen;
+
+}
+.life
+{
+    
+    position: relative;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: lightgrey;
+
+}
+.rhythm
+{
+    position: relative;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: lightgrey;
+
+}
+.knot
+{
+    position: relative;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: lightgrey;
+
+}
+
+    }
+#claim{
+    position: relative;
+    text-align: center;
+}
+h3
+{
+    color: blue;
+}
+p
+{
+    color: red;
+    text-align: center;
+}
