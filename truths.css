@@ -35,7 +35,7 @@ body{
     animation-duration: 18s;
     animation-iteration-count: infinite;
 }
-#wrapper{
+.wrapper{
     position: relative;
     margin: 5px;
     border: 12px solid black;
